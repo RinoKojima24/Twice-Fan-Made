@@ -1,0 +1,308 @@
+@keyframes slider {
+		0% {
+		left: 0;
+	}
+
+	20% {
+		left: 0;
+	}
+
+	25% {
+		left: -100%;
+	}
+
+	45% {
+		left: -100%;
+	}
+
+	50% {
+		left: -200%;
+	}
+
+	70% {
+		left: -200%;
+	}
+
+	75% {
+		left: -300%;
+	}
+
+	95% {
+		left: -300%;
+	}
+
+	100% {
+		left: -400%;
+	}
+}
+
+body {
+	background: #ffcccc;
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+	border:0;
+	background:#dedede;
+	height:1px;
+}	
+
+header{
+	text-align: center;
+	color: #232323;
+}
+
+header img{
+	margin: 0px;
+	width: 10%;
+	height: 120px;
+}
+
+.wrap {
+	width: 950px;
+	margin:25px auto;
+}
+
+nav.menu ul {
+	overflow:hidden;
+	color:#fff;
+	list-style: none;
+	float:left;
+	padding:0;
+	width: 950px;
+	margin:0 0 0;
+	background: #ff8080;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.55);
+}
+
+nav.menu ul li {
+	margin:0;
+	float:left;
+}
+
+
+nav.menu ul a {
+	padding:17px;
+	display:block;
+	font-weight:1000;
+	font-size: 16px;
+	color:#fff;
+	text-transform: uppercase;
+	transition: all 0.5s ease;
+	text-decoration: none;
+}
+
+nav.menu ul a:hover {
+	text-decoration: underline;
+	background:#16a085;
+}
+
+.sidebar {
+	float:right;
+	width:275px;
+}
+
+
+.sidebar .widget {
+	padding:30px;
+	margin:0 0 30px;
+	background:#fff;
+	border-bottom: 2px solid #fff;
+	transition: all 0.5s ease;
+}
+
+
+.sidebar .widget h2 {
+	padding:0;
+	margin:0 0 15px;
+	color:#3498db;
+	font-size: 18px;
+	font-weight:800;
+	text-transform: uppercase;
+}
+
+
+.sidebar .widget p {
+	font-size: 14px;
+}	
+
+.sidebar .widget p:last-child {
+	margin:0;
+}
+
+
+.blog {
+	float:left;
+}
+
+.conteudo {
+	width:600px;
+	padding:25px;
+	margin:25px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+
+.conteudo img {
+	min-width: 650px;
+	margin:0 0 25px -25px;
+	max-width: 650px;
+}
+
+.conteudo h1 {
+	padding:0;
+	margin:0 0 15px;
+	font-weight: normal;
+	color: #666;
+	font-family: Georgia;
+}
+
+.conteudo .continue-lendo {
+	color:#000;
+	transition: all 0.5s ease;
+	text-decoration: none;
+	font-weight: 700; 
+}
+
+
+.post-info {
+	float: right;
+	font-size: 12px;
+	margin: -10px 0 15px;
+	text-transform: uppercase;
+}
+
+.mamank {
+	width:898px;
+	height: 1800px;
+	padding:25px;
+	margin:10px auto;
+	background: #fff;
+	border:1px solid #dedede;
+	-webkit-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	-moz-box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+	box-shadow: 1px 1px 1px 0px rgba(204,204,204,0.35);
+}
+
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box img{
+	margin-left: 50px;
+	width: 200px;
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 20%;
+	padding: 50px;
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 20%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 12s slider infinite;
+}
+
+.title h1 {
+	font-size: 30px;
+	font-family: sans-serif;
+	color: pink;
+}
+
+#bio{
+	margin-left: 175px;
+	margin-top: 0px;
+	display: flex;
+}
+
+.data h1 p{
+	font-size: 4px;
+}
+
+/* Newsletter */
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#newsletter form {
+  text-align: center;
+}
+
+#newsletter input[type="text"]{
+  padding:4px;
+  height:25px;
+  width:650px;
+}
+
+
+.button_1{
+  height:38px;
+  background:red;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+#newsletter button[type="submit"]{
+	font-size: 10px;
+	font-family: verdana;
+}
+
+/* Newsletter */
+#newsletter2{
+  padding:15px;
+  color:#ffffff;
+  background:white;
+  margin-bottom: 10px;
+}
+
+#newsletter2 form {
+  text-align: left;
+}
+
+#newsletter2 input[type="text"]{
+  padding:4px;
+  height:15px;
+  width:150px;
+}
+
+
+.button_2{
+  height:28px;
+  background:red;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+#newsletter2 button[type="submit"]{
+	font-size: 10px;
+	font-family: verdana;
+}
+	
